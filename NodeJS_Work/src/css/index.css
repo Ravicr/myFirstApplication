@@ -1,0 +1,89 @@
+button
+{
+    padding:5px;
+    font-weight:bold;
+    background-color:#eee;
+    color:#000;
+    float:right;
+
+}
+#inputStyle{
+    width:70%;
+    float:right;
+}
+ul{
+    background: orange;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:2%
+}
+li{
+    background:orange;
+    border-top: 1px solid #dfdfdf;
+
+}
+#listyle{
+    margin-left:3%;
+    background:white;
+    padding-left:10px;
+}
+img{
+    width:15px;
+    height:12px;
+
+}
+input.arrowbutton {
+    float:right;
+    height:25px;
+    width:35px;
+    border-radius: 50%;
+    color: white;
+}
+input {
+    float:right;
+}
+#lablestyle{
+float:right;
+margin-right:5px;
+}
+
+#lableproblemtitle{
+    font-weight: bold;
+}
+h1{
+    font-size:2.12rem;
+}
+h3{
+    font-size:1.50rem;
+}
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.btn {
+  font-size: 0.5em;
+  font-weight: bold;
+  border-radius: 10%;
+  background-color: #8b8a89;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  float:right;
+  margin-right:10px;
+}

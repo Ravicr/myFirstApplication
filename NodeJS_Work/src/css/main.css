@@ -1,0 +1,86 @@
+.blueRectangle{
+    background:#244e91;
+    min-height: 40px;
+    border: 1px solid black;
+    border-radius:5px;
+    text-align: center;
+    margin: 0% 0% 0 0%;
+    background: #4CAF50;
+}
+
+#inputstyle{
+  width:70%;
+  float:right;
+}
+
+img{
+    width:30px;
+    height:30px;
+    float:right;
+    margin:0px auto;
+}
+.divRectangle{
+    background:#FFF;
+    min-height: 10px;
+    border: 1px solid black;
+    margin: 2% 1% 90% 10%;
+    color: #111;
+    min-height: 10px;
+    width:80%;
+    height:75%;
+    position:absolute;
+}
+h1{
+    font-size:2.12rem;
+}
+h3{
+    font-size:1.0rem;
+    width:25%;
+    float:left;
+}
+
+.divform{
+   width:99%;
+    overflow:auto;
+
+}
+.btn {
+  font-size: 0.5em;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  float:right;
+}
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ul{
+    background: orange;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:2%
+}
+li{
+    background:orange;
+    border-top: 1px solid #dfdfdf;
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My First Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+        <h1>
+            <img src="IKEA-Logo.svg" style="height:38px;width:100px;margin-right: 0;" alt="25">
+
+            iSharing(Communication)
+            <img src="sign_logo.png" style="height:32px;width:40px;right:10px;position: absolute;" alt="25">
+        </h1>
+        <div style="border-top: 1px solid #dfdfdf;"></div>
+        <ul style="list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;height: 50px;border-radius:10px;">
+                    <li style="float: left;border-right:1px solid #bbb;height: 100%;width: 33.3%;" >
+                        <a href="/">Home Page</a>
+                    </li>
+                    <li style="float: left;height: 100%;width: 33.3%;border-right:1px solid #bbb;">
+                        <a href="/openIssue"> Open New Issue </a>
+                    </li>
+                     <li style="float: left;height: 100%;width: 33.3%;border-right:1px solid #bbb;">
+                         <a href="/reportPage" class="active"> Report </a>
+                     </li>
+                </ul>
+        <h3> Distrubance Report </h3>
+        <button class="btn"> Generate Report </button>
+        <img src="img_1.png" style="margin-left:30%;height:30%;width:35%;">
+
+        <ul>
+            <% if(data != null) { %>
+             <% data.forEach(function(data){ %>
+                                <li>
+                                    <div id="listyle">
+                                        <lable id="lableproblemtitle"><%= data.problem_Description%></lable>
+                                        <lable id="lablestyle"> Opened : <%= data.problem_time%> </lable>
+                                        <lable id="lablestyle">Country : <%= data.problem_market%> </lable>
+
+                                    </div>
+                                    <div id="listyle">
+                                       <lable>Problem Description : <%= data.problem_business%> </lable>
+
+                                      </div>
+
+                                    <div id="listyle">
+                                        <lable> Ongoing </lable>
+                                        <img src="red-circle.png"> </img>
+
+
+                                    </div>
+
+                                </li>
+                                <% }) %>
+                                <% } else {%>
+                                    <li>
+                                     No Ongoing Distrubance in online checkout journey
+                                    </li>
+                                <% } %>
+        </ul>
+
+    <script src="js_script.js">
+
+    </script>
+</body>
+</html>

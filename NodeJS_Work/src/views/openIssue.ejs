@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My First Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+     <h1>
+                <img src="IKEA-Logo.svg" style="height:38px;width:100px;margin-right: 0;float:left;" alt="25">
+
+                iSharing(Communication)
+                <img src="sign_logo.png" style="height:32px;width:40px;right:10px;position: absolute;" alt="25">
+     </h1>
+     <div style="border-top: 1px solid #dfdfdf;"</div>
+    <form method="POST" action="/">
+    <ul style="list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;height: 50px;border-radius:10px;">
+                <li style="float: left;border-right:1px solid #bbb;height: 100%;width: 33.3%;" >
+                    <a href="/">Home Page</a>
+                </li>
+                <li style="float: left;height: 100%;width: 33.3%;border-right:1px solid #bbb;">
+                    <a class="active" href="/openIssue"> Open New Issue </a>
+                </li>
+                 <li style="float: left;height: 100%;width: 33.3%;border-right:1px solid #bbb;">
+                     <a href="/reportPage"> Report </a>
+                 </li>
+            </ul>
+    <div class="divRectangle">
+        <div class="divform">
+                <h3> Problem Description </h3>
+                <input id="inputstyle" type="text" name="problem_Description"> </input>
+        </div>
+        <div class="divform">
+                <h3> Issue Start time </h3>
+                <input id="inputstyle" type="text" name="problem_time"> </input>
+        </div>
+        <div class="divform">
+                <h3> Impacted market </h3>
+                <input id="inputstyle" type="text" name="problem_market"> </input>
+        </div>
+         <div class="divform">
+                <h3> Customer Impact </h3>
+                <input id="inputstyle"  type="text" name="problem_business"> </input>
+         </div>
+        <div class="divform">
+                <h3> Root Cause </h3>
+                <input id="inputstyle" type="text" name="problem_rootcause"> </input>
+        </div>
+        <div class="divform">
+                <h3> Team Involved </h3>
+                <input id="inputstyle" type="text" name="problem_team"> </input>
+        </div>
+        <div class="divform">
+                <h3> Current Status </h3>
+                <input id="inputstyle" type="text" name="problem_currentstatus"> </input>
+        </div>
+        <div class="divform">
+                <h3> Communication Channels </h3>
+                <input id="inputstyle" type="text" name="problem_channels">  </input>
+        </div>
+        <div style="text-align:center;">
+        <button type="submit"> Submit </button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
